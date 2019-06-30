@@ -1,22 +1,27 @@
 enablePlugins(SriPlatformPlugin)
 
-name := "mui-example"
+name := "web-examples-materialui"
+organization := "scalajs-react-interface"
 
-scalaVersion := "2.12.4"
+val scala212 = "2.12.8"
+val scala213 = "2.13.0"
+
+scalaVersion := scala212
+crossScalaVersions := Seq(scala212, scala213)
 
 resolvers += Resolver.bintrayRepo("scalajs-css", "maven")
 resolvers += Resolver.bintrayRepo("scalajs-react-interface", "maven")
 
 libraryDependencies ++= Seq(
-  "scalajs-react-interface" %%% "core" % "2018.2.2-RC",
-  "scalajs-react-interface" %%% "web" % "2018.2.2-RC",
-  "scalajs-react-interface" %%% "material-ui" % "2018.3.22-RC",
-  "scalajs-css" %%% "core" % "2018.2.2",
-  "scalajs-css" %%% "autoprefixer" % "2018.3.22",
-  "scalajs-react-interface" %%% "web-router" % "2018.2.2-RC",
-  "scalajs-react-interface" %%% "vdom" % "2018.2.2-RC",
-  "scalajs-react-interface" %%% "relay" % "2018.2.2-RC",
-  "scalajs-react-interface" %%% "universal" % "2018.2.9-RC"
+  "scalajs-react-interface" %%% "core" % "2019.06.26",
+  "scalajs-react-interface" %%% "web" % "2019.06.26",
+  "scalajs-react-interface" %%% "material-ui" % "2019.06.26",
+  "scalajs-css" %%% "core" % "2019.06.26",
+  "scalajs-css" %%% "autoprefixer" % "2019.06.26",
+  "scalajs-react-interface" %%% "web-router" % "2019.06.26",
+  "scalajs-react-interface" %%% "vdom" % "2019.06.26",
+  "scalajs-react-interface" %%% "relay" % "2019.06.26",
+  "scalajs-react-interface" %%% "universal" % "2019.06.26"
 )
 
 scalacOptions ++= Seq(
