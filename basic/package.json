@@ -11,7 +11,7 @@
     "build": "NODE_ENV=production webpack -p"
   },
   "devDependencies": {
-    "babel-cli": "^7.0.0-alpha.9",
+    "@babel/cli": "^7.0.0",
     "babel-loader": "^7.0.0",
     "compression-webpack-plugin": "^0.4.0",
     "css-loader": "^3.0.0",
@@ -26,7 +26,7 @@
   "dependencies": {
     "history": "^4.6.3",
     "path-to-regexp": "^1.7.0",
-    "react": "next",
-    "react-dom": "next"
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
   }
 }

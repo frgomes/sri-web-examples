@@ -28,8 +28,8 @@
   "dependencies": {
     "history": "^4.6.3",
     "path-to-regexp": "^1.7.0",
-    "react": "next",
-    "react-dom": "next",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-relay": "^1.1.0"
   }
 }
