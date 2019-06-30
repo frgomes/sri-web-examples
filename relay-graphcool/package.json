@@ -12,8 +12,8 @@
     "getOrUpdateSchema": "get-graphql-schema $SRI_APP_RELAY_URL > ./data/schema.graphql && graphql-sjs-models --s ./data/schema.graphql --o src/main/scala/sri/web/template/models"
   },
   "devDependencies": {
-    "babel-cli": "^7.0.0-alpha.9",
-    "babel-loader": "^7.0.0",
+    "babel-cli": "^8.0.6-alpha.9",
+    "babel-loader": "^8.0.6",
     "compression-webpack-plugin": "^0.4.0",
     "cross-env": "^5.0.1",
     "css-loader": "^0.28.1",
@@ -28,8 +28,8 @@
   "dependencies": {
     "history": "^4.6.3",
     "path-to-regexp": "^1.7.0",
-    "react": "^16.8.0",
-    "react-dom": "^16.8.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
     "react-relay": "^1.1.0"
   }
 }
